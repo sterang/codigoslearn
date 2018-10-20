@@ -1,0 +1,110 @@
+
+/*Selectores con ID
+#titulo {
+    color: red;
+}
+#logo {
+    margin-top: 200px;
+} 
+
+Selectores con clases
+.rojo{
+    color: red;
+}
+.logo {
+    margin-top: 200px;
+}
+Selectores con clase y ID
+*/
+#titulo.titulo{
+    font-size: 60px;
+}
+
+/*Selectores con dos clases */
+.azul.tituloCurso{
+    color: blue;    
+}
+
+/*Selectores con elementos HTML */
+
+p {
+    color: brown;
+}
+h2  {
+    color: orange;
+}
+h3 {
+    color: green;
+}
+img#logo {
+    width: 600px;
+}   
+/*Selectores con elementos HTML y clases */
+section.seccion{
+    background: orange;
+}
+div.noticias{
+    background: gray;
+}
+/*Selectores universal */
+
+/*  *{
+    /*color: red!important;*/
+    /*color: red;
+}*/
+
+#listado-cursos *{
+    color: blue;
+}
+.noticia *{
+    font-size: 50px;
+}
+/*Selectores grupales */
+
+h2,p {
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+}
+/*Selectores descendientes */
+
+nav#navegacion {
+    background-color: red;
+}
+nav#navegacion ul{
+    list-style: none;
+}
+nav#navegacion ul li{
+    display: inline;
+}
+nav#navegacion ul li a{
+    color: white;
+}
+
+/*Selectores hijos */
+
+section#cursos > ul{
+    border: 1px solid black;
+}
+
+ul#lis  tado-cursos > li{
+    color: blue;
+}
+ul#listado-cursos li ul > li{
+    color: green;
+}
+
+/*Selectores Adyasentes */
+ul#listado-cursos +p {
+    background-color: green;
+}
+
+/*Selectores con enlaces */
+
+a[href*="facebook.com"]{
+    background-color: yellow;
+}
+a[href*="google.com"]{
+    background-color: purple;
+}
